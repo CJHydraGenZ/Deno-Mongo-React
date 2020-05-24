@@ -2,7 +2,7 @@ import { Application } from "./deps.ts";
 
 import { router } from "./router/router.ts";
 
-const port = 3000;
+const port = 8000;
 const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
